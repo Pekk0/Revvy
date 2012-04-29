@@ -1,0 +1,25 @@
+#============================================================
+#
+#          FILE:  revvy
+#
+#         USAGE:  ./revvy [OPTIONS]...<ARGUMENT>...
+#
+#   DESCRIPTION:  A revision number parser
+#
+#       OPTIONS:  ---
+#  REQUIREMENTS:  Python 3.x
+#          BUGS:  Still in POC Testing.
+#         NOTES:  Development of this tool is still in progress.
+#        AUTHOR:  Pekk0, AWB
+#       COMPANY:  ---
+#       VERSION:  0.10a
+#       CREATED:  1/27/12 01:42:08 PST
+#      REVISION:  ---
+#============================================================
+
+  -h, --help			show help
+  -l, --list <SERVICE>	list specified service software (eg ./revvy.py -L ftp)
+  -s, --search <NAME>	search software by name			
+  -a, --all 			show all available service and revision numbers
+  -r, --ascii 			print fantastic Revvy ASCII art
+  -v, --version			show version
